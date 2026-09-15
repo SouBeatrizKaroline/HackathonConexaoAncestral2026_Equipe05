@@ -1,0 +1,35 @@
+{
+  "name": "petronect-ppe",
+  "version": "1.0.0",
+  "description": "Petronect Predict & Engage - Portal de Pré-Qualificação com BI e Rastreamento",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node test-endpoints.js",
+    "test:db": "node -e \"require('./database')\""
+  },
+  "keywords": [
+    "petronect",
+    "pré-qualificação",
+    "BI",
+    "mariadb",
+    "rastreamento",
+    "powerbi"
+  ],
+  "author": "Grupo 05 - Hackathon Conexão Ancestral",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
